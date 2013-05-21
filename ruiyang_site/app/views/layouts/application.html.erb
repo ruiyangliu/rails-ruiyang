@@ -1,14 +1,33 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>RuiyangSite</title>
-  <%= stylesheet_link_tag    "application", :media => "all" %>
-  <%= javascript_include_tag "application" %>
-  <%= csrf_meta_tags %>
+  <link rel="stylesheet" type="text/css" href="/css/style.css">
+  <script src="/js/ruiyang.js"></script>
 </head>
-<body>
-
-<%= yield %>
-
+<body class="black-bg">
+  <div id="header" class="grey-bg">
+    <span id="site-name"><a href="/">Ruiyang Liu</a></span>
+    <span id="primary-navigation">
+      <ul>
+        <li><a href="/skills">Skills</a></li>
+        <li>Resume</li>
+        <li>Contact</li>
+      </ul>
+    </span>
+  </div>
+  <div id="content" class="white-bg">
+    <%= yield %>
+  </div>
+  <div id="footer" class="white-bg">
+    <span class="social-icons">
+      <ul>
+        <li><a href="http://www.facebook.com/ruiyang.liu"><img src="/img/facebook.png" /></a></li>
+        <li><a href="https://twitter.com/RuiyangLiu"><img src="/img/twitter.png"/></a></li>
+        <li><a href="http://www.linkedin.com/pub/ruiyang-liu/49/439/9aa"><img src="/img/linkedin.png" /></a></li>
+	<li><a href="http://stackoverflow.com/users/1100504/ruiyang"><img src="/img/stackoverflow.png" /></a></li>
+        <li><a href="https://github.com/ruiyangliu"><img src="/img/github.png" /></a></li>
+      </ul>
+    </span>
+  </div>
 </body>
 </html>

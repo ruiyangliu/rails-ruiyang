@@ -1,0 +1,7 @@
+<div>
+<% @skills.each do |skill|  %>
+  <h2><%= skill.language %></h2>
+  <p><%= skill.experience %></p>
+  <a href="<%= skill.url %>"><img src="<%= skill.img %>" /></a>
+<% end  %>
+</div>
