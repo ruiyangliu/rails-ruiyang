@@ -62,6 +62,11 @@ a
   color: #FFF;
 }
 
+span.social-icons a:hover
+{
+opacity: 0.75;
+}
+
 .white-bg
 {
   background-color: #FFF;
