@@ -1,6 +1,7 @@
 body
 {
   margin: 0 auto;
+  width: 100%;
 }
 
 ul
@@ -24,25 +25,36 @@ a
 {
   height: 60px;
   margin: 0;
-  padding: 10px 10px;
+  padding: 10px 30px 0 30px;
+}
+
+#page-wrapper
+{
+  width: 780px;
+  margin: auto;
 }
 
 #content
 {
-  padding: 4px 10px;
+  padding: 4px 30px;
+  min-height: 350px;
 }
 
 #footer
 {
   height: 34px;
-  padding: 4px 10px;
+  padding: 4px 30px;
 }
 
+#extended-footer
+{
+  height: 35px;
+}
 #site-name
 {
   color: #FFF;
-  font-family: "Arial";
-  font-size: 35px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1.821em;
 }
 
 #primary-navigation ul
@@ -53,18 +65,27 @@ a
 #primary-navigation li
 {
   float: left;
-  margin: 0 5px;
-  color: #FFF;
+  padding: 5px 0;
+  color: #000;
+  background-color: #FFF;
+  width: 80px;
+  margin: 0 2px;
+  text-align: center;
 }
 
-#primary-navigation a:visited, #site-name a:visited, #primary-navigation a, #site-name a
+#primary-navigation a:visited, #primary-navigation a 
+{
+  color: #000;
+}
+
+#site-name a:visited, #site-name a
 {
   color: #FFF;
 }
 
 span.social-icons a:hover
 {
-opacity: 0.75;
+  opacity: 0.75;
 }
 
 .white-bg
@@ -80,6 +101,11 @@ opacity: 0.75;
 .grey-bg
 {
   background-color: #555;
+}
+
+.light-grey-bg
+{
+  background-color: #A8A8A8;
 }
 
 .social-icons ul
