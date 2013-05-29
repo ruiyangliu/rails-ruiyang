@@ -4,33 +4,30 @@
   <link rel="stylesheet" type="text/css" href="/css/style.css">
   <script src="/js/ruiyang.js"></script>
 </head>
-<body class="light-grey-bg"> 
-  <div id="page-wrapper" class="black-bg">
-    <div id="header" class="grey-bg">
-      <div id="site-name"><a href="/">Ruiyang Liu</a></div>
-      <div id="primary-navigation">
-        <ul>
-          <a href="/skills"><li>Skills</li></a>
-          <li>Resume</li>
-          <li>Contact</li>
-        </ul>
-      </div>
+<body class="black-bg"> 
+  <div id="header" class="black-bg">
+    <div id="site-name"><a href="/">Ruiyang Liu</a></div>
+    <div id="primary-navigation">
+      <ul>
+        <a href="/skills"><li>Skills</li></a>
+        <a href="#"><li>Resume</li></a>
+        <a href="#"><li>Contact</li></a>
+      </ul>
     </div>
-    <div id="content" class="white-bg">
-      <%= yield %>
-    </div>
-    <div id="footer" class="white-bg">
-      <span class="social-icons">
-        <ul>
-          <li><a href="http://www.facebook.com/ruiyang.liu"><img src="/img/facebook.png" /></a></li>
-          <li><a href="https://twitter.com/RuiyangLiu"><img src="/img/twitter.png"/></a></li>
-          <li><a href="http://www.linkedin.com/pub/ruiyang-liu/49/439/9aa"><img src="/img/linkedin.png" /></a></li>
-          <li><a href="http://stackoverflow.com/users/1100504/ruiyang"><img src="/img/stackoverflow.png" /></a></li>
-          <li><a href="https://github.com/ruiyangliu"><img src="/img/github.png" /></a></li>
-        </ul>
-      </span>
-    </div>
-    <div id="extended-footer" class="black-bg"></div>
+  </div>
+  <div id="content" class="white-bg">
+    <%= yield %>
+  </div>
+  <div id="footer" class="white-bg">
+    <span class="social-icons">
+      <ul>
+        <li><a href="http://www.facebook.com/ruiyang.liu"><img src="/img/facebook.png" /></a></li>
+        <li><a href="https://twitter.com/RuiyangLiu"><img src="/img/twitter.png"/></a></li>
+        <li><a href="http://www.linkedin.com/pub/ruiyang-liu/49/439/9aa"><img src="/img/linkedin.png" /></a></li>
+        <li><a href="http://stackoverflow.com/users/1100504/ruiyang"><img src="/img/stackoverflow.png" /></a></li>
+        <li><a href="https://github.com/ruiyangliu"><img src="/img/github.png" /></a></li>
+      </ul>
+    </span>
   </div>
 </body>
 </html>
