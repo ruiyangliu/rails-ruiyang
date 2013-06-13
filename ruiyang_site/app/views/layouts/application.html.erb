@@ -1,31 +1,35 @@
 <!DOCTYPE html>
-<html>
+<html style="min-width: 640px">
 <head>
-  <link rel="stylesheet" type="text/css" href="/css/style.css">
-  <script src="/js/ruiyang.js"></script>
+  <%= stylesheet_link_tag "style" %>
+  <%= javascript_include_tag "ruiyang" %>
+  <%= javascript_include_tag "jquery" %>
+  <%= javascript_include_tag "jquery-ui" %>
+  <%= yield(:head) %>
 </head>
-<body class="black-bg"> 
-  <div id="header" class="black-bg">
+<body> 
+  <div id="header" class="header-bg">
     <div id="site-name"><a href="/">[RUIYANG] RICHARD LIU</a></div>
     <div id="primary-navigation">
       <ul>
-        <a href="/skills"><li>Skills</li></a>
+        <a href="/skills"><li class="selected-tab">Skills</li></a>
         <a href="#"><li>Resume</li></a>
         <a href="#"><li>Contact</li></a>
       </ul>
     </div>
   </div>
-  <div id="content" class="white-bg">
+  <div id="content" class="content-bg">
     <%= yield %>
   </div>
   <div id="footer" class="white-bg">
+    <div style="display: inline-block; margin: 7px 25px">Designed in Toronto</div>
     <span class="social-icons">
       <ul>
-        <li><a href="http://www.facebook.com/ruiyang.liu"><img src="/img/facebook.png" /></a></li>
-        <li><a href="https://twitter.com/RuiyangLiu"><img src="/img/twitter.png"/></a></li>
-        <li><a href="http://www.linkedin.com/pub/ruiyang-liu/49/439/9aa"><img src="/img/linkedin.png" /></a></li>
-        <li><a href="http://stackoverflow.com/users/1100504/ruiyang"><img src="/img/stackoverflow.png" /></a></li>
-        <li><a href="https://github.com/ruiyangliu"><img src="/img/github.png" /></a></li>
+        <li><a href="http://www.facebook.com/ruiyang.liu"><%= image_tag("social-icons/facebook.png") %></a></li>
+        <li><a href="https://twitter.com/RuiyangLiu"><%= image_tag("social-icons/twitter.png") %></a></li>
+        <li><a href="http://www.linkedin.com/pub/ruiyang-liu/49/439/9aa"><%= image_tag("social-icons/linkedin.png") %></a></li>
+        <li><a href="http://stackoverflow.com/users/1100504/ruiyang"><%= image_tag("social-icons/stackoverflow.png") %></a></li>
+        <li><a href="https://github.com/ruiyangliu"><%= image_tag("social-icons/github.png") %></a></li>
       </ul>
     </span>
   </div>

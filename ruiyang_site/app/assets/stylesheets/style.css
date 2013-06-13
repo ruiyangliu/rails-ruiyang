@@ -1,0 +1,184 @@
+head
+{
+  min-width: 640px;
+}
+
+body
+{
+  margin: 0 auto;
+  width: 100%;
+  background-color: #008B9F;
+  max-height: 600px;
+}
+
+ul
+{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+h2
+{
+  margin: 0;
+}
+
+a
+{
+  text-decoration: none;
+}
+
+#header
+{
+  margin: 0;
+  padding: 10px 30px 0 30px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#content, #footer
+{
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#content
+{
+  margin-bottom: 34px;
+}
+
+#footer
+{
+  height: 34px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+#site-name
+{
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 2.121em;
+  display: block;
+  margin-bottom: 10px;
+  padding: 15px 0;
+  color: #97EF99;
+}
+
+#primary-navigation ul
+{
+  overflow: hidden;
+}
+
+#primary-navigation li
+{
+  float: left;
+  color: #FFF;
+  padding: 2px 0;
+  margin: 0 2px;
+  width: 100px;
+  text-align: center;
+  background-color: #283E49;
+}
+
+#site-name a:hover
+{
+  opacity: 0.75;
+}
+
+#primary-navigation a:hover li
+{
+  background-color: #283E49;
+  opacity: 0.75;
+}
+
+#site-name a:visited, #site-name a
+{
+  color: #97EF99;
+}
+
+span.social-icons a:hover
+{
+  opacity: 0.75;
+}
+
+.white-bg
+{
+  background-color: #FFF;
+}
+
+.black-bg
+{
+  background-color: #000;
+}
+
+.header-bg
+{
+  background-color: #198669;
+}
+
+.content-bg
+{
+  background-color: #283E49;
+}
+
+.grey-bg
+{
+  background-color: #555;
+}
+
+.light-grey-bg
+{
+  background-color: #A8A8A8;
+}
+
+.social-icons ul
+{
+  float: right;
+}
+
+.social-icons li
+{
+  float: left;
+}
+
+#skills-carousel
+{
+  padding-top: 70px;
+  text-align: center;
+}
+
+.skill-element
+{
+  display: inline-block;
+  padding: 0 10px;
+}
+
+.selected-skill
+{
+  background-color: #008B9F;
+}
+
+#skills-content
+{
+  background-color: #008B9F;
+  min-height: 250px;
+}
+
+#skills-title
+{
+  text-align: center;
+  padding: 20px 0;
+  color: #FFF;
+}
+
+#skills-notes
+{
+  text-align: center;
+  color: #FFF;
+}
+
+#skills-notes li
+{
+  padding: 3px 0;
+}
+
