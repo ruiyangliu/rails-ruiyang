@@ -87,13 +87,13 @@ a
 
 #primary-navigation a:hover li
 {
-  background-color: #283E49;
+  background-color: #FFF;
   opacity: 0.75;
 }
 
 #site-name a:visited, #site-name a
 {
-  color: #97EF99;
+  color: #FFF;
 }
 
 span.social-icons a:hover
@@ -113,7 +113,7 @@ span.social-icons a:hover
 
 .header-bg
 {
-  background-color: #198669;
+  background-color: #008B9F;
 }
 
 .content-bg
