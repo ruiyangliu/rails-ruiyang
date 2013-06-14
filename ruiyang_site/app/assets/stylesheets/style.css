@@ -87,7 +87,6 @@ a
 
 #primary-navigation a:hover li
 {
-  background-color: #FFF;
   opacity: 0.75;
 }
 
@@ -151,11 +150,18 @@ span.social-icons a:hover
 {
   display: inline-block;
   padding: 0 10px;
+  opacity: 0.5;
+  background-color: #008B9F;
 }
 
 .selected-skill
 {
-  background-color: #008B9F;
+  opacity: 1;
+}
+
+.hovered-skill
+{
+  cursor: pointer;
 }
 
 #skills-content
@@ -164,20 +170,22 @@ span.social-icons a:hover
   min-height: 250px;
 }
 
-#skills-title
+.skills-title
 {
   text-align: center;
   padding: 20px 0;
   color: #FFF;
+  display: none;
 }
 
-#skills-notes
+.skills-notes
 {
   text-align: center;
   color: #FFF;
+  display: none;
 }
 
-#skills-notes li
+.skills-notes li
 {
   padding: 3px 0;
 }
