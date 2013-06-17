@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html style="min-width: 640px">
+<html>
 <head>
   <%= stylesheet_link_tag "style" %>
   <%= javascript_include_tag "jquery" %>
@@ -7,19 +7,25 @@
   <%= javascript_include_tag "ruiyang" %>
   <%= yield(:head) %>
 </head>
-<body> 
-  <div id="header" class="header-bg">
-    <div id="site-name"><a href="/">[RUIYANG] RICHARD LIU</a></div>
-    <div id="primary-navigation">
-      <ul>
-        <a href="/skills"><li class="selected-tab">Skills</li></a>
-        <a href="#"><li>Resume</li></a>
-        <a href="#"><li>Contact</li></a>
-      </ul>
+<body>
+  <div id="page-wrapper">
+    <div id="header" class="header-bg">
+      <div id="site-banner">
+        <a href="/"><%= image_tag("site-logo.png") %></a>
+        <h2 id="name-title" class="header-text">SOFTWARE DEVELOPER</h2>
+        <h1 id="site-name" class="header-text"><a href="/">RICHARD LIU</a></h1>
+        <div id="primary-navigation">
+          <ul>
+            <a href="/skills"><li class="selected-navigation">Skills</li></a>
+            <a href="#"><li>Resume</li></a>
+            <a href="#"><li>Contact</li></a>
+          </ul>
+        </div>
+      </div>
     </div>
-  </div>
-  <div id="content" class="content-bg">
-    <%= yield %>
+    <div id="content" class="content-bg">
+      <%= yield %>
+    </div>
   </div>
   <div id="footer" class="white-bg">
     <div style="display: inline-block; margin: 7px 25px">Made in China</div>

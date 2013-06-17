@@ -5,22 +5,14 @@ head
 
 body
 {
-  margin: 0 auto;
-  width: 100%;
-  background-color: #008B9F;
-  max-height: 600px;
+  margin: 0;
+  background-color: #282828;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 ul
 {
   list-style-type: none;
-  padding: 0;
-  margin: 0;
-}
-
-h2
-{
-  margin: 0;
 }
 
 a
@@ -28,16 +20,61 @@ a
   text-decoration: none;
 }
 
-#header
-{
-  margin: 0;
-  padding: 10px 30px 0 30px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+#content{
+  background-color: #99BE91;
+  width: 800px;
+  margin: 0 auto;
+  clear: both;
 }
 
-#content, #footer
+#page-wrapper{
+  background-color: #282828;
+}
+
+#header
 {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: #475539;
+  text-align: center;
+  width: 800px;
+  margin: 0 auto;
+
+}
+
+#site-banner{
+  width: 550px;
+  margin: 0 auto;
+  padding-top: 15px;
+  overflow: hidden;
+}
+
+.header-text{
+  color: #FFFFFF;
+}
+
+#header img{
+  float: left;
+}
+
+#header h1{
+  font-size: 40px;
+  margin: 0;
+  clear: right;
+  float: right;
+  letter-spacing: 13px;
+  margin-right: -13px;
+  padding: 0;
+}
+
+#header h2{
+  font-size: 10px;
+  letter-spacing: 5px;
+  float: right;
+  margin-top: 25px;
+}
+
+.white-bg
+{
+  background-color: #FFF;
 }
 
 #content
@@ -56,7 +93,6 @@ a
 
 #site-name
 {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 2.121em;
   display: block;
   margin-bottom: 10px;
@@ -64,28 +100,33 @@ a
   color: #97EF99;
 }
 
-#primary-navigation ul
+#primary-navigation
 {
-  overflow: hidden;
+  float: right;
+}
+
+#primary-navigation ul{
+  margin: 0 0 5px 0;
 }
 
 #primary-navigation li
 {
   float: left;
   color: #FFF;
+  height: 23px;
   padding: 2px 0;
+  padding-top: 3px;
   margin: 0 2px;
   width: 100px;
   text-align: center;
-  background-color: #283E49;
+  background-color: #5A6A51;
+}
+
+.selected-navigation{
+  background-color: #99BE91 !important;
 }
 
 #site-name a:hover
-{
-  opacity: 0.75;
-}
-
-#primary-navigation a:hover li
 {
   opacity: 0.75;
 }
@@ -100,39 +141,12 @@ span.social-icons a:hover
   opacity: 0.75;
 }
 
-.white-bg
-{
-  background-color: #FFF;
-}
-
-.black-bg
-{
-  background-color: #000;
-}
-
-.header-bg
-{
-  background-color: #008B9F;
-}
-
-.content-bg
-{
-  background-color: #283E49;
-}
-
-.grey-bg
-{
-  background-color: #555;
-}
-
-.light-grey-bg
-{
-  background-color: #A8A8A8;
-}
 
 .social-icons ul
 {
   float: right;
+  margin: 0;
+  padding: 0;
 }
 
 .social-icons li

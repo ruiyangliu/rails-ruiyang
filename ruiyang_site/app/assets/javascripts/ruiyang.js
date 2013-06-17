@@ -1,4 +1,16 @@
 $(function () {
+  //Initial load of page
+  $(document).ready(sizeContent);
+
+  //Every resize of window
+  $(window).resize(sizeContent);
+
+  //Dynamically assign height
+  function sizeContent() {
+      var newHeight = $(window).height() - $("#header").height() - $("#footer").height() + "px";
+      $("#content").css("min-height", newHeight);
+  }
+
   var className = $(".selected-skill").attr('class').split(' ')[0];
   $("."+className).show();
 
