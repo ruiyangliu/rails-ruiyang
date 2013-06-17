@@ -1,3 +1,19 @@
+<div id="skills-category">
+  <div class="category-os category-element selected-category"><%= image_tag("skills-category/os.png") %></div>
+  <div class="category-framework category-element"><%= image_tag("skills-category/framework.png") %></div>
+  <div class="category-language category-element"><%= image_tag("skills-category/language.png") %></div>
+  <div class="category-server category-element"><%= image_tag("skills-category/server.png") %></div>
+</div>
+
+<div id="skills-carousel">
+  <div class="skill-1 skill-os skill-element selected-skill" style="border: 5px 0"><%= image_tag("skills/windows.png") %>
+  	<div class="skill-name" style="color: #FFF; background-color: #008B9F; margin:0; padding-top: 7px">Windows</div>
+  </div>
+  <div class="skill-2 skill-os skill-element"><%= image_tag("skills/mac.png") %></div>
+  <div class="skill-3 skill-os skill-element"><%= image_tag("skills/linux.png") %></div>
+  <div class="skill-4 skill-language skill-element"><%= image_tag("skills/ruby.png") %></div>
+</div>
+
 <div>
 <% @skills.each do |skill|  %>
   <h2><%= skill.language %></h2>

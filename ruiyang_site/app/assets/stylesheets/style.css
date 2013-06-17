@@ -156,26 +156,29 @@ span.social-icons a:hover
 
 #skills-carousel
 {
-  padding-top: 70px;
+  padding-top: 40px;
   text-align: center;
 }
 
 .skill-element
 {
   display: inline-block;
-  padding: 0 10px;
-  opacity: 0.5;
-  background-color: #008B9F;
+  margin: 0 10px;
 }
 
 .selected-skill
 {
-  opacity: 1;
 }
 
 .hovered-skill
 {
   cursor: pointer;
+}
+
+.skill-os{
+  border-style: solid;
+  border-width: 10px;
+  color: #008B9F;
 }
 
 #skills-content
@@ -204,3 +207,18 @@ span.social-icons a:hover
   padding: 3px 0;
 }
 
+#skills-category
+{
+  padding-top: 20px;
+  text-align: center;
+}
+
+.category-element{
+  display: inline-block;
+  padding: 0 10px;
+  opacity: 0.5;
+}
+
+.selected-category{
+  opacity: 1;
+}

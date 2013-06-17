@@ -10,7 +10,7 @@ $(function () {
       var newHeight = $(window).height() - $("#header").height() - $("#footer").height() + "px";
       $("#content").css("min-height", newHeight);
   }
-
+/*
   var className = $(".selected-skill").attr('class').split(' ')[0];
   $("."+className).show();
 
@@ -35,5 +35,5 @@ $(function () {
     $(".skills-title").hide();
     $(".skills-notes").hide();
     $("."+className).show();
-  });
+  });*/
 });
