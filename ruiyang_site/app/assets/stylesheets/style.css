@@ -22,7 +22,7 @@ a
 
 #content{
   background-color: #99BE91;
-  width: 800px;
+  width: 980px;
   margin: 0 auto;
   clear: both;
 }
@@ -35,7 +35,7 @@ a
 {
   background-color: #475539;
   text-align: center;
-  width: 800px;
+  width: 980px;
   margin: 0 auto;
 
 }
@@ -162,8 +162,8 @@ span.social-icons a:hover
 
 .skill-element
 {
-  display: inline-block;
-  margin: 0 10px;
+  margin: 0 3px;
+  float: left;
 }
 
 .selected-skill
@@ -176,40 +176,31 @@ span.social-icons a:hover
 }
 
 .skill-os{
-  border-style: solid;
-  border-width: 10px;
-  color: #008B9F;
+  color: #FFF;
+}
+
+.skill-language{
+  color: #FFF;
+}
+
+.skills-container{
+  width: 720px;
+  margin: auto auto;
 }
 
 #skills-content
 {
+  clear: both;
   background-color: #008B9F;
-  min-height: 250px;
-}
-
-.skills-title
-{
-  text-align: center;
-  padding: 20px 0;
-  color: #FFF;
-  display: none;
-}
-
-.skills-notes
-{
-  text-align: center;
-  color: #FFF;
-  display: none;
-}
-
-.skills-notes li
-{
-  padding: 3px 0;
+  margin: 0 auto 0 auto;
+  min-height: 200px;
+  padding-top: 25px;
+  color: white;
 }
 
 #skills-category
 {
-  padding-top: 20px;
+  padding-top: 45px;
   text-align: center;
 }
 
@@ -217,6 +208,20 @@ span.social-icons a:hover
   display: inline-block;
   padding: 0 10px;
   opacity: 0.5;
+}
+
+.skill-name{
+  padding: 10px 0;
+  margin: 0;
+  color: #FFF;
+}
+
+#skills-content ul{
+  margin: 0;
+}
+
+#skills-content li{
+  margin-top: 5px;
 }
 
 .selected-category{
