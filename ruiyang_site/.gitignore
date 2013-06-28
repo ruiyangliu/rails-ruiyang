@@ -16,3 +16,9 @@
 
 # Ignore the database.yml
 /config/database.yml
+
+# ignore vim tmp files and .DS_Store
+*~
+*.swp
+*.swo
+*.DS_Store
