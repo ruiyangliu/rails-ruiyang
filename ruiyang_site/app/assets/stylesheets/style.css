@@ -79,6 +79,7 @@ a
 #content
 {
   margin-bottom: 34px;
+  min-height: 650px;
 }
 
 #footer
@@ -231,7 +232,7 @@ span.social-icons a:hover
 }
 
 #sa{
+  position: absolute;
   opacity: 0.05;
   text-align: center;
-  padding-top: 20px;
 }
