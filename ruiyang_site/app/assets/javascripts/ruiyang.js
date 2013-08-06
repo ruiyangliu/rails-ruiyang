@@ -1,4 +1,5 @@
-/*$(function () {
+/*
+$(function () {
   //Initial load of page
   $(document).ready(sizeContent);
 
@@ -37,4 +38,4 @@
     $(".skills-notes").hide();
     $("."+className).show();
   });*/
-});
+/*});*/
