@@ -229,3 +229,9 @@ span.social-icons a:hover
 .selected-category{
   opacity: 1;
 }
+
+#sa{
+  opacity: 0.05;
+  text-align: center;
+  padding-top: 20px;
+}
