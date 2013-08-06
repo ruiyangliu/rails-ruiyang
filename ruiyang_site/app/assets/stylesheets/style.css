@@ -21,7 +21,7 @@ a
 }
 
 #content{
-  background-color: #99BE91;
+  background-color: #D4F5CE;
   width: 980px;
   margin: 0 auto;
   clear: both;
@@ -62,14 +62,13 @@ a
   float: right;
   letter-spacing: 13px;
   margin-right: -13px;
-  padding: 0;
 }
 
 #header h2{
   font-size: 10px;
   letter-spacing: 5px;
   float: right;
-  margin-top: 25px;
+  margin-top: 26px;
 }
 
 .white-bg
@@ -96,30 +95,33 @@ a
   font-size: 2.121em;
   display: block;
   margin-bottom: 10px;
-  padding: 15px 0;
+  padding: 10px 0;
   color: #97EF99;
 }
 
-#primary-navigation
-{
-  float: right;
+#primary-navigation ul{
+  margin: 0;
+  height: 70px;
+  padding: 10px 0 0 0;
+  font-size: 0;
 }
 
-#primary-navigation ul{
-  margin: 0 0 5px 0;
+.last-menu-item{
+  border-right: none !important;
 }
 
 #primary-navigation li
 {
-  float: left;
+  font-size: 15px;
+  border-right: solid #6A7C60;
+  border-width: 1px;
+  letter-spacing: 5px;
+  height: 100%;
   color: #FFF;
-  height: 23px;
-  padding: 2px 0;
-  padding-top: 3px;
-  margin: 0 2px;
-  width: 100px;
-  text-align: center;
+  width: 20%;
+  display:inline-block;
   background-color: #5A6A51;
+  line-height: 70px;
 }
 
 .selected-navigation{
