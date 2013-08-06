@@ -233,6 +233,7 @@ span.social-icons a:hover
 
 #sa{
   position: absolute;
-  opacity: 0.05;
+  margin-top: 10px;
+  opacity: 0.075;
   text-align: center;
 }
