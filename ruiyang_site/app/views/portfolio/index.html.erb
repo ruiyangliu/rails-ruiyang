@@ -1,0 +1,16 @@
+<div class="portfolio-container">
+  <% @portfolios.each do |p| %>
+  <div class="portfolio-item portfolio-item-1">
+    <!--<%= debug p %>-->
+    <div style="portfolio-item-url"><%= p.url %></div>
+    <%= p.name %>.png
+    <%= p.name %>-logo.png
+  </div> 
+
+  <div class="portfolio-content portfolio-content-1">
+    <div class="portfolio-description"><%= p.description %></div>
+    <div class="portfolio-deployed">Deployed: <%= p.deployed %></div>
+    <div class="portfolio-status"><%= p.status %></div>
+  </div>
+  <% end %>
+</div>

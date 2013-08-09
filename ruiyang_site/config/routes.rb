@@ -1,6 +1,6 @@
 RuiyangSite::Application.routes.draw do
   # get "home/index"
-  resources :skills
+  resources :skills, :portfolios, :portfolio
   root :to => 'home#index'
 
 
