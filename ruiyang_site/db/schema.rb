@@ -11,7 +11,19 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130521182857) do
+ActiveRecord::Schema.define(:version => 20130809192249) do
+
+  create_table "portfolios", :force => true do |t|
+    t.string   "url"
+    t.string   "name"
+    t.integer  "deployed"
+    t.text     "description"
+    t.integer  "tech"
+    t.integer  "order"
+    t.integer  "status"
+    t.datetime "created_at",  :null => false
+    t.datetime "updated_at",  :null => false
+  end
 
   create_table "skills", :force => true do |t|
     t.string   "language"

@@ -1,7 +1,7 @@
 RuiyangSite::Application.routes.draw do
   # get "home/index"
   resources :skills, :portfolios, :portfolio
-  root :to => 'home#index'
+  root :to => 'portfolio#index'
 
 
   # The priority is based upon order of creation:
