@@ -21,6 +21,7 @@ a img{
 
 #content{
   background-color: #D4F5CE;
+  padding-top: 30px;
   margin: 0 auto;
   clear: both;
   max-width: 1200px;
@@ -368,4 +369,14 @@ div.social-icons a:hover
     width: 335px;
     height: 185px;
   }
+}
+
+#resume-wrapper{
+  background-color: #f5f4f0;
+  min-height: 1050px;
+  width: 85%;
+  margin: 25px auto;
+  -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);
 }

@@ -5,7 +5,7 @@
   <%= javascript_include_tag "jquery" %>
   <%= javascript_include_tag "jquery-ui" %>
   <%= javascript_include_tag "ruiyang" %>
-  <%= yield(:head) %>
+  <title>Richard Ruiyang Liu</title>
 </head>
 <body>
   <div id="page-wrapper">
@@ -17,10 +17,10 @@
       </div>
       <div id="primary-navigation">
         <ul>
-          <a href="#"><li>blog</li></a>
+          <a href="#" style="opacity: 0.2"><li>blog</li></a>
           <a href="/portfolio"><li class="<%= "selected-navigation" if params[:controller] == "portfolio" %>">portfolio</li></a>
-          <a href="/rl_resume_jul_24_2013.pdf"><li>resume</li></a>
-          <a href="#"><li class="last-menu-item">contact</li></a>
+          <a href="/resume"><li class="<%= "selected-navigation" if params[:controller] == "resume" %>">resume</li></a>
+          <a href="#" style="opacity: 0.2"><li class="last-menu-item">about</li></a>
         </ul>
         </div>
     </div>
