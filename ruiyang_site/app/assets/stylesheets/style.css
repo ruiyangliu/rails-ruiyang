@@ -1,7 +1,7 @@
 body
 {
   margin: 0;
-  background-color: #282828;
+  background-color: #D4F5CE;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
@@ -21,14 +21,13 @@ a img{
 
 #content{
   background-color: #D4F5CE;
-  padding-top: 30px;
+  padding: 30px 0 100px 0;
   margin: 0 auto;
   clear: both;
-  max-width: 1200px;
 }
 
 #page-wrapper{
-  background-color: #282828;
+  background-color: #D4F5CE;
 }
 
 #header
@@ -36,7 +35,6 @@ a img{
   background-color: #475539;
   text-align: center;
   margin: 0 auto;
-  max-width: 1200px;
 
 }
 
@@ -74,11 +72,6 @@ a img{
 .white-bg
 {
   background-color: #FFF;
-}
-
-#content
-{
-  min-height: 1250px;
 }
 
 #footer
@@ -373,9 +366,9 @@ div.social-icons a:hover
 
 #resume-wrapper{
   background-color: #f5f4f0;
-  min-height: 1050px;
-  width: 85%;
+  width: 950px;
   margin: 25px auto;
+  padding-bottom: 70px;
   -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);
@@ -383,4 +376,17 @@ div.social-icons a:hover
 
 .resume-options a:hover{
   opacity: 0.4;
+}
+
+.resume-content h3{
+  margin: 30px 0 0 30px;
+}
+
+.resume-job-title{
+  font-style: italic;
+  margin-bottom: 10px !important;
+}
+
+.resume-content li{
+  margin: 10px 0;
 }
